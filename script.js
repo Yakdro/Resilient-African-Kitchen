@@ -44,6 +44,7 @@ window.addEventListener('load', () => {
 });
 
 
+/*
 // testimonial slide script //
 const testimonials = document.querySelectorAll(".testimonial");
   const next = document.querySelector(".next");
@@ -67,11 +68,13 @@ const testimonials = document.querySelectorAll(".testimonial");
   prev.addEventListener("click", () => {
     index = (index - 1 + testimonials.length) % testimonials.length;
     showTestimonial(index);
-  });
+  }); 
 
   // Show the first testimonial by default
-  showTestimonial(index);
+  showTestimonial(index); */
 
+
+  
 // open and close model for meanu //
 function openModal(id) {
   document.getElementById(id).style.display = 'flex';
@@ -189,13 +192,13 @@ li.innerHTML = `
 
   message += `\n\nPlease do not edit this message. Kindly confirm your order directly. Thank you.`;
   
-  whatsappLink.href = `https://wa.me/2347040030091?text=${encodeURIComponent(message)}`;
+  whatsappLink.href = `https://wa.me/23409123514132?text=${encodeURIComponent(message)}`;
 }
 
 
 function orderNow(itemName, itemPrice) {
   const message = `Hello, I would like to order: ${itemName} (₦${itemPrice.toLocaleString()}) from your menu`;
-  window.open(`https://wa.me/2347040030091?text=${encodeURIComponent(message)}`, "_blank");
+  window.open(`https://wa.me/23409123514132?text=${encodeURIComponent(message)}`, "_blank");
 }
 
   
