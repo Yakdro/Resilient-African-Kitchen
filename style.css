@@ -843,4 +843,10 @@ button.next:hover{
       max-width: 500px;
       font-weight: bold;
     }
+
+    .whatsapp-btn {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+  }
 }
