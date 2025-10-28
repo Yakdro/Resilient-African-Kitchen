@@ -716,7 +716,7 @@ button.next:hover{
 @media screen and (max-width: 768px) {
   
   :root {
-    --scroll-offset: 280px;
+    --scroll-offset: 250px;
   }
   .header-wrapper {
     flex-direction: column;
