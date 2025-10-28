@@ -79,7 +79,7 @@
 
                     <!-- menu-item 2 -->
                     <div class="menu-item">
-                        <img src="./img/soup/Nigeria_soup.jpg" alt="Nigeria_soup" loading="lazy" onclick="openModal('SnacksModal')" style="cursor: pointer;">
+                        <img src="./img/soup/Nigeria_soup.jpg" alt="Nigeria_soup" loading="lazy" onclick="openModal('SoupModal')" style="cursor: pointer;">
                         <h3>Soup</h3>
                         <p>From Egusi to Ogbono and beyond, each bowl tells the story of Africa’s rich kitchen tradition. Made with care, served with love, and perfect for every occasion.</p>
                     </div>
@@ -115,6 +115,19 @@
       <h3>FOOD</h3>
 
       <div class="menu-list">
+         <!-- Item 0 -->
+        <div class="menu-card">
+          <img src="./img/food/takeaway.jpg" alt="Food Takeaway" loading="lazy">
+          <div class="menu-info">
+            <h4>Takeaway</h4>
+            <p>₦300</p>
+            <div class="button-wrap">
+            <button onclick="orderNow('Takeaway', 300)" class="order-now-btn">Order Now</button>
+            <button onclick="addToOrder('Takeaway', 300)" class="add-btn">Add to Order</button>
+            </div>
+          </div>
+        </div>
+
         <!-- Item 1 -->
         <div class="menu-card">
           <img src="./img/food/fried_rice.webp" alt="Fried rice" loading="lazy">
@@ -429,13 +442,26 @@
   </div>
 
 
-  <!-- Modal Section SNACKS (Place outside the menu section!) -->
-  <div id="SnacksModal" class="menu-modal">
+  <!-- Modal Section Soup (Place outside the menu section!) -->
+  <div id="SoupModal" class="menu-modal">
     <div class="modal-content">
-      <span class="close" onclick="closeModal('SnacksModal')">&times;</span>
+      <span class="close" onclick="closeModal('SoupModal')">&times;</span>
       <h3>Soup</h3>
 
       <div class="menu-list">
+        <!-- Item 0 -->
+        <div class="menu-card">
+          <img src="./img/food/takeaway.jpg" alt="Food Takeaway" loading="lazy">
+          <div class="menu-info">
+            <h4>Takeaway</h4>
+            <p>₦300</p>
+            <div class="button-wrap">
+            <button onclick="orderNow('Takeaway', 300)" class="order-now-btn">Order Now</button>
+            <button onclick="addToOrder('Takeaway', 300)" class="add-btn">Add to Order</button>
+            </div>
+          </div>
+        </div>
+        
         <!-- Item 1 -->
         <div class="menu-card">
           <img src="./img/soup/egusi_soup.jpg" alt="Egusi Soup" loading="lazy">
@@ -541,6 +567,19 @@
       <h3>PROTIENS</h3>
 
       <div class="menu-list">
+        <!-- Item 0 -->
+        <div class="menu-card">
+          <img src="./img/food/takeaway.jpg" alt="Food Takeaway" loading="lazy">
+          <div class="menu-info">
+            <h4>Takeaway</h4>
+            <p>₦300</p>
+            <div class="button-wrap">
+            <button onclick="orderNow('Takeaway', 300)" class="order-now-btn">Order Now</button>
+            <button onclick="addToOrder('Takeaway', 300)" class="add-btn">Add to Order</button>
+            </div>
+          </div>
+        </div>
+
         <!-- Item 1 -->
         <div class="menu-card">
           <img src="./img/protiens/beef.jpg" alt="Peppered beef" loading="lazy">
